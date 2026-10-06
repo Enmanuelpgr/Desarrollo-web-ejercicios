@@ -27,14 +27,14 @@ public class CarsAssemble {
         int[] velocidadesDePrueba = {1, 6, 10};
         
         for (int velocidad : velocidadesDePrueba) {
-            System.out.println("Probando con velocidad: " + velocidad );
+            System.out.println("Velocidad: " + velocidad );
             
             double produccionPorHora = ensambladora.productionRatePerHour(velocidad);
             System.out.println("Producción por hora: " + produccionPorHora);
             
             int produccionPorMinuto = ensambladora.workingItemsPerMinute(velocidad);
             System.out.println("Autos terminados por minuto: " + produccionPorMinuto);
-            System.out.println("--------------------------------------------------\n");
+            
         }
     }
 }

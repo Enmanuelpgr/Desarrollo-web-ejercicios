@@ -7,14 +7,14 @@ public class ElonsToyCar {
     }
 
     public String distanceDisplay() {
-        return "Driven " + distanceDriven + " meters";
+        return "metros recorridos: " + distanceDriven;
     }
 
     public String batteryDisplay() {
         if (batteryPercentage == 0) {
-            return "Battery empty";
+            return "Batería vacía";
         }
-        return "Battery at " + batteryPercentage + "%";
+        return "Batería en " + batteryPercentage + "%";
     }
 
     public void drive() {
@@ -25,7 +25,7 @@ public class ElonsToyCar {
     }
 
     public static void main(String[] args) {
-        System.out.println("Probando Elon's Toy Car");
+        System.out.println("Elon's Toy Car");
         ElonsToyCar car = ElonsToyCar.buy();
         System.out.println("Estado inicial: " + car.distanceDisplay() + " | " + car.batteryDisplay());
         

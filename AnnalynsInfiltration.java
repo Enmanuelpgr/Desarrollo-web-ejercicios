@@ -1,4 +1,4 @@
-class AnnalynsInfiltration {
+public class AnnalynsInfiltration {
     
     public static boolean canFastAttack(boolean knightIsAwake) {
         return !knightIsAwake;
@@ -20,7 +20,6 @@ class AnnalynsInfiltration {
     }
 
     public static void main(String[] args) {
-        // Variables de prueba
         boolean knightIsAwake = false;
         boolean archerIsAwake = true;
         boolean prisonerIsAwake = false;

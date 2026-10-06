@@ -47,7 +47,7 @@ class BirdWatcher {
     }
 
     public static void main(String[] args) {
-        System.out.println("Probando Bird Watcher");
+        System.out.println("Bird Watcher");
        
         int[] avesDeLaSemana = {2, 5, 0, 7, 4, 1, 3};
         BirdWatcher observador = new BirdWatcher(avesDeLaSemana);
